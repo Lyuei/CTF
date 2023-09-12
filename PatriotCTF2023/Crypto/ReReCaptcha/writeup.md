@@ -11,7 +11,7 @@ Downloadable File:
 [ReReCaptcha.zip](ReReCaptcha.zip)
 
 ## Solution
-In the zip file, we have CT (ciphertext), E (public exponent), P and Q (Prime Numbers) in the png images, which is pretty straighforward for RSA. We first convert them to numbers from image to text converter. Then, we use this script from a previous similar CTF challenge to solve. Then, it converts the m (plaintext) to text which is the flag.
+In the zip file, we have CT (ciphertext), E (public exponent), P and Q (Prime Numbers) in the png images, which is pretty straighforward for RSA. Once we have these numerical components, we can use a [script](ReReCaptcha.py) from a previous similar CTF challenge to solve the RSA encryption. This script will help us to calculate the plaintext message 'm,' which can then be converted to text to reveal the flag.
 
 ## Flag
 PCTF{I_H0P3_U_U53D_0CR!}
