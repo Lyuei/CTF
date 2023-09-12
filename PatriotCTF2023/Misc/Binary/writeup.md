@@ -8,7 +8,7 @@ Downloadable File:
 [Binary.txt](Binary.txt)
 
 ## Solution
-The binary code encryption was identified using a [Cipher Identifier](https://www.dcode.fr/cipher-identifier). The top result revealed that the binary code was written in the Spoon programming language, which composed of only 0 and 1. By interpreting this binary code, we were able to obtain the flag.
+The binary code was identified using a [Cipher Identifier](https://www.dcode.fr/cipher-identifier). The top result revealed that the binary code was written in the Spoon programming language, which composed of only 0 and 1. By interpreting this binary code, we were able to obtain the flag.
 
 ## Flag
 PCTF{Sp00N_F33d_M3_11191}
