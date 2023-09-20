@@ -18,7 +18,7 @@ Based on the server output, we need to input 30 numbers. The server will then pr
 ### Deduction
 The testing prompted me to input all '0's, and the output was '125'. Subsequently, I replaced the last input with '1', resulting in an output of '250'. By subtracting 125 from 250, which is the ASCII of "}", I deduced that it was likely the end of the flag.
 
-I repeated this process several times, replacing the initial inputs with '1' each time, and confirmed that it was indeed the flag, which spelled out "csaw". I used a [script](solve.py), waited around half a minute, and the flag is printed out.
+I repeated this process several times, replacing the initial inputs with '1' each time, and confirmed that it was indeed the flag, which spelled out "csaw". I used a [script](solve.py) to repeat the process 30 times, waited around half a minute, and the flag is printed out.
 
 ## Flag
 csawctf{m0d1_5t341ing_i5_d}
