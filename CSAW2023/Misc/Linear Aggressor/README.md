@@ -8,11 +8,11 @@ By lyu3e
 
 
 ### Analyse
-'''bash
+```
     Wall Street Bros dropped a new model!
     Give me 30 numbers and I will give you a linear regression prediction.
     Enter your input:
-'''
+```
 Based on the server output, we need to input 30 numbers. The server will then provide either a linear regression prediction or possibly a flag-related output. If we enter non-positive integers, the server responds with "Not a valid input," and the program terminates. During my testing, I discovered that increasing the input values resulted in larger output numbers.
 
 ### Deduction
