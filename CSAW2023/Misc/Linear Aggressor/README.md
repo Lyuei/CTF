@@ -8,7 +8,7 @@ By lyu3e
 
 
 ### Analyse
-'''
+'''bash
     Wall Street Bros dropped a new model!
     Give me 30 numbers and I will give you a linear regression prediction.
     Enter your input:
