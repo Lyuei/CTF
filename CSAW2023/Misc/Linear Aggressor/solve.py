@@ -1,11 +1,7 @@
 from pwn import *
-import re
 
 host = 'misc.csaw.io'
 port = 3000
-
-# Suppress debug output
-context.log_level = 'error'
 
 flag = ''
 
